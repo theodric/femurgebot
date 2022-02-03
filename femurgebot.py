@@ -45,7 +45,7 @@ while True:
 	tvit = "The feminine urge to " + str.lower(Verb[Verbidx].rstrip("\r\n")) + " a " + str.lower(Noun[Nounidx].rstrip("\r\n")) + "."
 	print("Next twot phrase will be: " + tvit)
 
-#	api.update_status(tvit)
+	api.update_status(tvit)
 
 	for i in range(tweetFrequency, 0, -1):
 		time.sleep(1)
