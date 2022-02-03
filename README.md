@@ -8,6 +8,7 @@ Based on automatli - Swiss trollage generator
 Format is:
 
 Verb - English verbs - in Verb.txt
+
 Noun - English nouns - in Noun.txt
 
 EXAMPLES:
