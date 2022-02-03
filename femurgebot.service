@@ -1,0 +1,10 @@
+[Unit]
+Description=femurgebot
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python3 /path/to/femurgebot.py >/var/log/femurgebot.log
+
+[Install]
+WantedBy=multi-user.target
