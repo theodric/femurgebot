@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # femurgebot version 1
-#2022-02-03
+# 2022-02-03
 
 import tweepy
 import time
