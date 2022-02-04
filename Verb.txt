@@ -788,6 +788,8 @@ shear
 shed
 shelter
 shine
+shit
+shitpost
 shiver
 shock
 shoe
