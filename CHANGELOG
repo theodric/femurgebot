@@ -1,5 +1,6 @@
 2022-02-11:
-Now correctly handles English indefinite articles preceding words beginning with a vowel
+1. Now correctly handles English indefinite articles preceding words beginning with a vowel
+2. License clarified as WTFPL
 
 2022-02-04:
 Initial release
