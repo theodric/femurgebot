@@ -17,7 +17,7 @@ EXAMPLES:
 Verb == post
 Noun == shit
 
-output: The feminine urge to post shit
+output: The feminine urge to post a shit
 ```
 
 ## Usage
