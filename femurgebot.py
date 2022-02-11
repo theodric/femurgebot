@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-# femurgebot version 1
-# 2022-02-03
+# femurgebot version 1.1
+# 2022-02-11
 
 import tweepy
 import time
@@ -39,10 +39,15 @@ if ACCESS_SECRET == 'unmodified':
     exit()
 
 while True:
-	Verbidx = random.randrange(len(Verb))
+    Verbidx = random.randrange(len(Verb))
 	Nounidx = random.randrange(len(Noun))
 
-	tvit = "The feminine urge to " + str.lower(Verb[Verbidx].rstrip("\r\n")) + " a " + str.lower(Noun[Nounidx].rstrip("\r\n")) + "."
+	if Noun[Nounidx][:1] == str.lower("a") or Noun[Nounidx][:1] == str.lower("e") or Noun[Nounidx][:1] == str.lower("i") or Noun[Nounidx][:1] == str.lower("o") or Noun[Nounidx][:1] == str.lower("u"):
+		article = " an "
+	else:
+		article = " a "
+
+	tvit = "The feminine urge to " + str.lower(Verb[Verbidx].rstrip("\r\n")) + article + str.lower(Noun[Nounidx].rstrip("\r\n")) + "."
 	print("Next twot phrase will be: " + tvit)
 
 	api.update_status(tvit)
