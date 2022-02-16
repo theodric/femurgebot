@@ -1,3 +1,6 @@
+2022-02-16:
+Now (crudely) attempts to handle plurals, but really just removes the article if a word ends with "s"
+
 2022-02-11:
 1. Now correctly handles English indefinite articles preceding words beginning with a vowel
 2. License clarified as WTFPL

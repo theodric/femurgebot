@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-# femurgebot version 1.1
-# 2022-02-11
+# femurgebot version 1.2
+# 2022-02-16
 
 import tweepy
 import time
@@ -46,6 +46,9 @@ while True:
 		article = " an "
 	else:
 		article = " a "
+
+	if Noun[Nounidx][:-1].endswith(str.lower("s")):
+		article = " "
 
 	tvit = "The feminine urge to " + str.lower(Verb[Verbidx].rstrip("\r\n")) + article + str.lower(Noun[Nounidx].rstrip("\r\n")) + "."
 	print("Next twot phrase will be: " + tvit)
