@@ -1,15 +1,14 @@
 # femurgebot
 ### A bot seeking to programmatically catalogue all possible feminine urges
 
-Based on jarfbot - Jarf Beezers name generator
-Based on assaultbot - internet gunshitpostbot
-Based on automatli - Swiss trollage generator
+Based on jarfbot - Jarf Beezers name generator  
+Based on assaultbot - internet gunshitpostbot  
+Based on automatli - Swiss trollage generator  
 
 Format is:
 
-Verb - English verbs - in Verb.txt
-
-Noun - English nouns - in Noun.txt
+Verb - English verbs - in Verb.txt  
+Noun - English nouns - in Noun.txt  
 
 EXAMPLES:
 
