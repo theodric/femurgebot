@@ -1,5 +1,5 @@
 # femurgebot
-### A bot seeking to programmatically catalogue all possible feminine urges
+### A Twitter bot seeking to programmatically catalogue all possible feminine urges
 
 Based on jarfbot - Jarf Beezers name generator  
 Based on assaultbot - internet gunshitpostbot  
