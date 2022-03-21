@@ -25,6 +25,6 @@ output: The feminine urge to post a shit
 * edit femurgebot.py and add your Twitter API details
 * run
 
-Optionally, you can run it as a service on Debian by creating /lib/systemd/system/femurgebot.service and symlinking it to /etc/systemd/system/multi-user.target.wants/femurgebot.service.
+Optionally, you can run it as a systemd service by creating /lib/systemd/system/femurgebot.service and symlinking it to /etc/systemd/system/multi-user.target.wants/femurgebot.service.
 
 A service template is included in this distribution.
