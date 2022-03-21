@@ -31,7 +31,7 @@ api = tweepy.API(auth)
 ## Set frequency of tweets posted, in SECONDS
 ## Don't set this too low, or you may get rate-limited, or even put in Twitter Jail!
 ## 3600 seconds, an hour, is a safe value
-tweetFrequency = 3600
+tweetFrequency_seconds = 3600
 
 ## Sanity check.
 if ACCESS_SECRET == 'unmodified':
@@ -55,7 +55,7 @@ while True:
 
 	api.update_status(tvit)
 
-	for i in range(tweetFrequency, 0, -1):
+	for i in range(tweetFrequency_seconds, 0, -1):
 		time.sleep(1)
 ##if you find the countdown in stdout annoying, remove the following two lines
 		sys.stdout.write(str((i - 1))+' ')
