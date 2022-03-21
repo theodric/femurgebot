@@ -1,3 +1,7 @@
+2022-03-21:
+Updated tweetFrequency variable name to tweetFrequency_seconds
+Thx: https://ruudvanasseldonk.com/2022/03/20/please-put-units-in-names
+
 2022-02-16:
 Now (crudely) attempts to handle plurals, but really just removes the article if a word ends with "s"
 
